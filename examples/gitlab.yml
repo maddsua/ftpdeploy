@@ -1,0 +1,11 @@
+deploy_ftp:
+  image: denoland/deno
+  stage: deploy
+  variables:
+    FTP_DEPLOY_HOST: $FTP_DEPLOY_HOST
+    FTP_DEPLOY_PASSWORD: $FTP_DEPLOY_PASSWORD
+    FTP_DEPLOY_USER: $FTP_DEPLOY_USER
+    FTP_DEPLOY_FOLDER: $FTP_DEPLOY_FOLDER
+    FTP_DEPLOY_WWW_PROD: $FTP_DEPLOY_WWW_PROD
+  script:
+    - deno task deploy_www
