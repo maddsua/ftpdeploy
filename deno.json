@@ -1,0 +1,5 @@
+{
+	"tasks": {
+		"example_deploy_command": "deno run --allow-all package/main.ts --distDir=../whatever/dist --wwwProd=/host/www --host=127.0.0.1 --user=ftpuser --password=12345"
+	}
+}
