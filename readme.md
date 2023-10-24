@@ -21,3 +21,5 @@ List of vars in format:
 - `FTP_DEPLOY_USER` - `user` - `undefined` - FTP user name (*empty by default and must be provided)
 
 - `FTP_DEPLOY_PASSWORD` - `password` - `undefined` - FTP user password (*empty by default and must be provided)
+
+# Anyway, using FTP in 2023 is stupid and you should use rsync instead
